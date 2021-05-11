@@ -2,7 +2,7 @@ package gameProject;
 
 public class PlayerManager implements PlayerService{
 
-	PersonCheckService personCheckService;
+	private PersonCheckService personCheckService;
 
 	public PlayerManager(PersonCheckService personCheckService) {
 		super();
